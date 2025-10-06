@@ -8,7 +8,6 @@ int main() {
     cin >> dayNumber;
     
     if (dayNumber < 1 and dayNumber > 7) {
-        cout << "Неправильный номер дня недели!" << endl;
         cout << "Номер должен быть от 1 до 7" << endl;
     } else {
         int pDay;
