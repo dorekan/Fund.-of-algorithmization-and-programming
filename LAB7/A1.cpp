@@ -14,5 +14,4 @@ int main() {
     
     cout << "Результат S = " << S << endl;
     
-    return 0;
 }
