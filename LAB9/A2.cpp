@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-// Вариант 1: с указателем
+// Вариант 1
 void flip(int* N) {
     int reversed = 0;
     int original = *N;
@@ -12,7 +12,7 @@ void flip(int* N) {
     *N = reversed;
 }
 
-// Вариант 2: со ссылкой
+// Вариант 2
 void flip(int& N) {
     int reversed = 0;
     int original = N;
@@ -23,7 +23,7 @@ void flip(int& N) {
     N = reversed;
 }
 
-// Вариант 3: возвращает новое значение
+// Вариант 3
 int flip(int N) {
     int reversed = 0;
     while (N > 0) {
